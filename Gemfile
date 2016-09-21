@@ -39,6 +39,8 @@ group :development, :test do
   gem 'byebug'
 
   gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
+  gem 'guard-rspec', require: false
+  gem 'spring-commands-rspec'
 
 end
 
