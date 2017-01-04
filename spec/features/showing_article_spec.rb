@@ -41,8 +41,8 @@ end
 
 		click_link @article.title
 
-		expect(page).not_to have_link("Edit Article")
-		expect(page).not_to have_link("Delete Article")
+		expect(page).to have_link("Edit Article")
+		expect(page).to have_link("Delete Article")
 
 	end
 	scenario "Display individual article" do
