@@ -1,3 +1,3 @@
 == README
 
-This is a simple blog application that allows users to login with the help of [Devise](https://github.com/plataformatec/devise), create and remove blog posts, and comment on other posts. 
+This is a simple blog application that allows users to login with the help of {Devise}[https://github.com/plataformatec/devise], create and remove blog posts, and comment on other posts. 
